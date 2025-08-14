@@ -1,8 +1,8 @@
 function firstWord(s) {
   // your code here
-	let s = s.trim();
+	s = s.trim();
 
-	 space = s.indexof(" ");
+	let space = s.indexof(" ");
 	if(space===-1){
 		return s;
 	}
