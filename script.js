@@ -2,7 +2,7 @@ function firstWord(s) {
   // your code here
 	let str = s.trim();
 
-	let space = str.indexof(" ");
+	let space = str.indexOf(" ");
 	if(space===-1){
 		return s;
 	}
