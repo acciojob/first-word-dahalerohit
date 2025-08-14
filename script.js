@@ -1,5 +1,12 @@
 function firstWord(s) {
   // your code here
+	let s = s.trim();
+
+	let space = s.indexof(" ");
+	if(space===-1){
+		return s;
+	}
+	return s.substring(0, space);
 }
 
 // Do not change the code below
